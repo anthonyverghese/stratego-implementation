@@ -1,0 +1,41 @@
+These are all of the game's text commands and their effects.
+Keywords in (parentheses) are optional.
+The letters 'r' and 'c' stand for the row and column indices of a space.
+The indices of rows are numbers, and the indices of columns are letters.
+
+--- Setup Phase Commands ---
+
+(place) rank rc : Places a piece of the given rank onto the board at (r,c).
+
+remove rc : Removes a piece of yours from the space (r,c) if one is there.
+
+clear : Removes all of your pieces from the board, restarting the setup.
+
+auto : Places all of your remaining pieces randomly.  The positions of
+pieces you have placed already will not be preserved.
+
+--- Main Phase Commands ---
+
+(move) rc r'c' : Moves a piece of your color from (r,c) to (r',c') if that
+move is valid.
+
+--- Other Commands (can be used in either phase) ---
+
+quit : Ends the current game and returns to the menu.
+
+display : Re-displays the board from your perspective.
+
+**************
+
+A piece cannot move back and forth between the same two spaces for three
+turns in a row.  If 50 moves (25 per player) pass without any pieces being
+captured, the game ends in a draw.
+
+**************
+
+The brackets around your pieces indicate what your opponent knows about
+them.  Here are their meanings:
+
+[ ] : This piece has never moved or been in a battle.
+( ) : This piece has moved at least once but has not been in a battle.
+! ! : Your opponent knows the rank of this piece.

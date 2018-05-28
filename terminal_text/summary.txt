@@ -1,0 +1,41 @@
+Welcome to Stratego.  The goal of the game is to use your army to capture
+your opponent's flag.
+
+Both your army and your opponent's army consist of a number of pieces of
+varying ranks.  You can see the locations of each other's pieces, but not
+their ranks.  However, when one piece attacks another, both players learn
+the rank of the opponent's piece.  Hiding information about your own army
+from your opponent and discovering as much information as possible about
+your opponent's army are key to success in Stratego.
+
+At the start of the game, you choose the initial positions of your pieces,
+and your opponent does the same.  Both players start with the same number of
+pieces of each rank.  For the rest of the game, you and your opponent take
+turns, moving one piece at a time.  On your turn, you can move a piece one
+space up, down, left, or right.  A piece can move into an empty space, or it
+can move into an enemy piece to attack it, but it cannot move into a lake
+tile [^] or into a space occupied by a piece of the same color.
+
+When a piece attacks another piece, the ranks of the two pieces determine
+the outcome of the battle.  Most ranks have a number, and pieces of
+higher-numbered ranks can capture pieces of lower-numbered ranks.  If two
+pieces of equal rank fight each other, both are removed from the board.
+Pieces with higher numbers are generally more valuable, but not all pieces
+behave in the same manner.  The following pieces have special properties:
+
+-The Flag [F] cannot move or attack, and any mobile piece can capture it.
+If your opponent captures your Flag, you lose, so remember to protect it!
+-Like the Flag, Bombs [B] cannot move or attack.  However, they can capture
+almost any piece that tries to attack them.  Use them to defend your Flag.
+-Scouts [2] can move an unlimited number of spaces in a straight line in a
+single turn, like the rook in chess.  Moving a Scout more than one space at
+a time lets your opponent know that Scout's rank.  Scouts cannot move over
+lake tiles or through other pieces.  Use them to discover the ranks of your
+opponent's pieces.
+-Miners [3] are the only pieces that can capture Bombs.  You'll need to keep
+them safe in the early game so you can use them later on to break through
+your opponent's defenses.
+-The Marshal [M] can capture any other mobile piece.
+-The Spy [S] can capture the Marshal by attacking it, but cannot capture any
+other mobile piece.  Also, if the Marshal attacks the Spy first, the Marshal
+wins, so be careful with your Spy!
